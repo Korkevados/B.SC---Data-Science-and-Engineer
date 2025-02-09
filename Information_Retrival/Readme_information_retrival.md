@@ -1,38 +1,50 @@
 <!-- @format -->
 
-# Project Descriptions
+# Project Repository
 
-## Assignment 1: Wikipedia Parser & Tokenizer
+## Overview
 
-This project involves building a parser and tokenizer for Wikipedia content.  
-It extracts and processes text efficiently, preparing it for further natural language processing tasks.  
-The implementation focuses on handling Wikipedia's specific formatting and structures.  
-The project is essential for text-based applications like indexing and search engines.
+This repository contains multiple projects related to data analysis, machine learning, and information retrieval. The key tools and libraries used include:
 
-## Assignment 2: Indexing
+- **Python** (Jupyter Notebooks)
+- **Pandas & NumPy** (Data Manipulation)
+- **Scikit-learn** (Machine Learning Models)
+- **Matplotlib & Seaborn** (Data Visualization)
+- **PySpark & Google Cloud** (Distributed Computing & MapReduce)
+- **NLP & Indexing Techniques** (Wikipedia Parsing, Inverted Index, Ranking)
 
-The project focuses on developing an efficient indexing system for large-scale text data.  
-It includes building an inverted index and optimizing search performance.  
-The indexing techniques improve query response time and storage efficiency.  
-The project is a core component of information retrieval systems.
+Each project involves different aspects of data processing, model evaluation, and computational techniques.
 
-## Assignment 3: MapReduce & Web Graph
+---
 
-This project applies the MapReduce paradigm to process web graphs at scale.  
-It focuses on distributed computing techniques to analyze link structures and page relationships.  
-The implementation is optimized for cloud-based environments like Google Colab.  
-The project is fundamental for large-scale data processing in distributed systems.
+## Project Descriptions
 
-## Assignment 4: Ranking & Evaluation
+### **Assignment 1 - Wikipedia Parser & Tokenizer**
 
-This project implements ranking algorithms to improve search result relevance.  
-It includes evaluating different ranking techniques using standard metrics.  
-The approach enhances information retrieval accuracy and user satisfaction.  
-The project is crucial for optimizing search engines and recommendation systems.
+- Developed a parser and tokenizer for Wikipedia content.
+- Extracted and processed raw text from Wikipedia dumps.
+- Used `bz2` for compressed file handling and `Counter` for word frequency analysis.
+- Built foundational methods for text processing and NLP tasks.
 
-## GCP Notebook - Execution Guidelines
+### **Assignment 2 - Inverted Indexing & Zipf's Law**
 
-This notebook contains essential configurations and must retain its execution output.  
-It includes predefined setups for running computations on Google Cloud.  
-The project ensures smooth execution of large-scale data processing tasks.  
-Users should not clear the outputs to maintain execution integrity.
+- Constructed an **Inverted Index** for efficient search and retrieval.
+- Empirically analyzed word frequency distributions and validated **Zipf’s Law**.
+- Used `pandas`, `numpy`, and `google.colab.data_table` for structured data representation.
+- Implemented different tokenization techniques to improve retrieval performance.
+
+### **Assignment 3 - MapReduce & Web Graph**
+
+- Implemented **MapReduce** using PySpark to scale up indexing operations.
+- Processed large-scale datasets in **Google Colab and Google Cloud Platform (GCP)**.
+- Created an **Inverted Index** with distributed computing.
+- Used `pyspark` for parallel data processing and `graphframes` for web graph analysis.
+
+### **Assignment 4 - Ranking & Evaluation**
+
+- Developed a complete **Retrieval System** based on the **Inverted Index** from Assignment 2.
+- Implemented **TF-IDF ranking** and evaluated search effectiveness.
+- Used `sklearn.feature_extraction.text.TfidfVectorizer` for text vectorization.
+- Computed **cosine similarity** to rank retrieved documents effectively.
+
+---
